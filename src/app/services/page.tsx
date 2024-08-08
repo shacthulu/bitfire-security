@@ -1,7 +1,7 @@
 // src/app/services/page.tsx
 export default function Services() {
     return (
-        <div className="flex flex-col max-w-full mx-auto py-8 pl-2" style={ { scrollbarGutter: 'stable both-edges' } }>
+        <div className="flex flex-col max-w-full mx-auto py-8 pl-2" style={ { scrollbarGutter: 'stable both-edges' } } role="main">
             <h1 className="text-5xl font-bold mb-8">Services.</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col">

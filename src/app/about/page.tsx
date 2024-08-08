@@ -1,7 +1,7 @@
 // src/app/services/page.tsx
 export default function About() {
     return (
-        <div className="flex flex-col max-w-full mx-auto py-8 pl-2 " >
+        <div className="flex flex-col max-w-full mx-auto py-8 pl-2 " role="main" >
             <h1 className="text-5xl font-bold mb-8">About.</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col">
