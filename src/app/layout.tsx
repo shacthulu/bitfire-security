@@ -4,6 +4,7 @@ import { TailwindIndicator } from '@/components/TailwindIndicator'
 import '@/styles/globals.css'
 import { Roboto, Libre_Baskerville } from 'next/font/google'
 import Image from 'next/image'
+import { Analytics } from '@vercel/analytics/react'
 
 const libreBaskerville = Libre_Baskerville( {
   weight: [ '400', '700' ],
@@ -84,11 +85,12 @@ export default function RootLayout( {
               <Linkedin size={ 28 } strokeWidth={ 0 } fill="white" />
             </a>
           </div>
-          <a href="#" className="text-white hover:text-gray-200 mr-4 md:mr-0" aria-label="Send us an email">
+          <a href="mailto:info@bitfiresecurity.com" className="text-white hover:text-gray-200 mr-4 md:mr-0" aria-label="Send us an email">
             <Mail size={ 28 } />
           </a>
         </div>
         <TailwindIndicator />
+        <Analytics/>
       </body>
     </html>
   )
