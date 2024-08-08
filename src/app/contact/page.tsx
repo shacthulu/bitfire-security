@@ -64,6 +64,7 @@ export default function ContactPage() {
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.5760904223106!2d-84.28462688479242!3d34.070378880600184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f57504a2f0e6f7%3A0x5b5a8f4b8b8f8f8f!2s8000%20Avalon%20Blvd%20Suite%20100%2C%20Alpharetta%2C%20GA%2030009!5e0!3m2!1sen!2sus!4v1628787234567!5m2!1sen!2sus"
                         className="w-full h-full border-0"
                         loading="lazy"
+                        title="Bitfire location map"
                     ></iframe>
                 </div>
             </div>

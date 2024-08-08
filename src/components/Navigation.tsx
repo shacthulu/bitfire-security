@@ -22,13 +22,14 @@ export function Navigation() {
             <button
                 className="sm:hidden"
                 onClick={ () => setIsOpen( !isOpen ) }
+                aria-label="Toggle navigation menu"
             >
                 <Menu size={ 24 } />
             </button>
             <div className={ cn(
                 "sm:flex sm:space-x-6 text-sm",
                 isOpen
-                    ? "absolute top-10 right-0 bg-white p-4 shadow-md"
+                    ? "absolute top-10 right-0 bg-white p-4 shadow-md z-0"
                     : "hidden"
             ) }>
                 { navItems.map( ( item ) => (
@@ -36,7 +37,7 @@ export function Navigation() {
                         key={ item.href }
                         href={ item.href }
                         className={ cn(
-                            "block sm:inline-block transition-colors hover:text-red-500",
+                            "block sm:inline-block transition-colors hover:text-red-500  z-0",
                             pathname === item.href
                                 ? "text-red-500"
                                 : "text-gray-400"

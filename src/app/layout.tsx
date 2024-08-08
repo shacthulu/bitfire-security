@@ -2,7 +2,7 @@ import { Linkedin, Mail } from 'lucide-react'
 import { Navigation } from '@/components/Navigation'
 import { TailwindIndicator } from '@/components/TailwindIndicator'
 import '@/styles/globals.css'
-import { Inter, Roboto, Open_Sans, Libre_Baskerville } from 'next/font/google'
+import { Roboto, Libre_Baskerville } from 'next/font/google'
 import Image from 'next/image'
 
 const libreBaskerville = Libre_Baskerville( {
@@ -11,10 +11,6 @@ const libreBaskerville = Libre_Baskerville( {
   variable: '--font-libre-baskerville',
 } )
 
-const inter = Inter( {
-  subsets: [ 'latin' ],
-  variable: '--font-inter',
-} )
 
 const roboto = Roboto( {
   weight: [ '300', '400', '500', '700' ],
@@ -22,10 +18,6 @@ const roboto = Roboto( {
   variable: '--font-roboto',
 } )
 
-const openSans = Open_Sans( {
-  subsets: [ 'latin' ],
-  variable: '--font-open-sans',
-} )
 
 export const metadata = {
   title: 'Bitfire Security',
@@ -41,7 +33,7 @@ export default function RootLayout( {
   children: React.ReactNode
 } ) {
   return (
-    <html lang="en" className={ `${ libreBaskerville.variable } ${ inter.variable } ${ roboto.variable } ${ openSans.variable }` }>
+    <html lang="en" className={ `${ libreBaskerville.variable } ${ roboto.variable } ` }>
       <body className="min-h-screen flex flex-col bg-white font-open-sans">
         <div className="flex-grow flex justify-center px-4 sm:mx-20">
           <div className="w-full max-w-[57rem] flex flex-col relative">
@@ -53,10 +45,10 @@ export default function RootLayout( {
             </div>
             */ }
 
-            <header className="flex justify-between items-center py-8 relative z-10" role="banner">
+            <header className="flex justify-between items-center py-8 relative z-20" role="banner">
               <div className="w-10 h-10 sm:w-36 sm:h-14 relative">
                 <Image
-                  src="/images/bitfire-logo.svg"
+                  src="/images/bitfire-logo-144-56.svg"
                   alt="Bitfire Security Logo"
                   fill
                   style={ { objectFit: 'contain' } }
@@ -64,7 +56,7 @@ export default function RootLayout( {
                   className="hidden sm:block"
                 />
                 <Image
-                  src="/images/bitfire-b-logo-70-70.svg"
+                  src="/images/bitfire-b-logo-69-50.svg"
                   alt="Bitfire Security B Logo"
                   fill
                   style={ { objectFit: 'contain' } }
@@ -79,7 +71,7 @@ export default function RootLayout( {
               { children }
             </main>
 
-            <footer className="py-4 md:text-gray-400 text-sm relative z-10 text-center text-white" role="contentinfo">
+            <footer className="py-4 text-gray-900 text-sm relative z-10 text-center" role="contentinfo">
               © { new Date().getFullYear() } by Bitfire Security
             </footer>
           </div>
@@ -92,7 +84,7 @@ export default function RootLayout( {
               <Linkedin size={ 28 } strokeWidth={ 0 } fill="white" />
             </a>
           </div>
-          <a href="#" className="text-white hover:text-gray-200 mr-4 md:mr-0">
+          <a href="#" className="text-white hover:text-gray-200 mr-4 md:mr-0" aria-label="Send us an email">
             <Mail size={ 28 } />
           </a>
         </div>
