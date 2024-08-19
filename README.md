@@ -1,6 +1,6 @@
 # Bitfire Website
 
-Welcome to the repository for the Bitfire website. Bitfire is a cybersecurity consulting firm specializing in governance, risk and compliance, strategy, and operational support. We focus on compliance and risk assessments, executive advisory/strategy, engineering and deployment, resourcing, and bespoke custom security solutions, including custom coding, automation, and development (DevSecOps, SecDevOps, automation, etc).
+Welcome to the repository for the Bitfire website. Bitfire is a cybersecurity consulting firm specializing in governance, risk and compliance, strategy, and operational support. We focus on compliance and risk assessments, executive advisory/strategy, engineering and deployment, resourcing, and bespoke custom security solutions, including custom coding, automation, and development (DevSecOps, SecDevOps, automation, etc). 
 
 ## Table of Contents
 
