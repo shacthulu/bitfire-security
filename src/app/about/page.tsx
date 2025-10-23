@@ -5,7 +5,7 @@ export default function About() {
             <h1 className="text-5xl font-bold mb-8">About.</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col">
-                    <h2 className="text-2xl font-semibold font-serif"><span className="text-red-600">Bitfire Security</span> partners with organizations to build resilient security programs that actually work. We bring together cross-domain expertise to develop tailored solutions collaboratively. </h2>
+                    <h2 className="text-2xl font-semibold font-serif"><span className="text-red-600">Bitfire Security</span> partners with organizations to build resilient security programs that actually work. <br/> We bring together cross-domain expertise to develop tailored solutions collaboratively. </h2>
                 </div>
                 <div className="space-y-4 mb-10 text-slate-700">
                     <p>
