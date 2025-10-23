@@ -25,8 +25,7 @@ export default function Services() {
                     <p>
                         Elevate your cybersecurity strategy with Bitfire&apos;s seasoned executive advisors. We bring boardroom-level
                         insights to your security initiatives, aligning them with your business objectives for maximum impact. Our
-                        consultants have built, led, and transformed security programs across various industries, including multiple
-                        Fortune 100 companies. From developing robust security programs to creating clear, actionable roadmaps, we
+                        consultants have built, led, and transformed security programs across various industries and Fortune companies. From developing robust security programs to creating clear, actionable roadmaps, we
                         empower your organization to make informed decisions that drive long-term security and business success.
                     </p>
                 </div>
@@ -53,7 +52,7 @@ export default function Services() {
                 </div>
                 <div className="space-y-4 mb-10 text-slate-700">
                     <p>
-                        Supercharge your program&apos;s ability to deliver with Bitfire&apos;s flexible support and resourcing solutions. We offer a range of services to enhance your team&apos;s capabilities, including talent aggregation and filtering from regional staffing firms, as well as retainers and fractional talent. Our talent acquisition and screening services help you build a robust internal security team, while our multi-disciplinary &quot;Tiger Teams&quot; tackle complex security projects with precision, delivering unmatched value. With Bitfire, you gain a trusted partner committed to elevating your security program to world-class standards.
+                        Supercharge your program&apos;s ability to deliver with Bitfire&apos;s flexible support and resourcing solutions. We offer a range of services to enhance your team&apos;s capabilities, including technology management for OneTrust and Vanta, as well as program management for third-party risk, AI governance, policies and standards. Our experts work alongside your team to provide ongoing or on-demand expertise, ensuring you have the right skills when you need them. Additionally, we offer tailored training programs designed to upskill your staff, fostering a culture of security awareness and continuous improvement. 
                     </p>
                 </div>
             </div>
